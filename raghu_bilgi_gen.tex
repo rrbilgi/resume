@@ -1,0 +1,256 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass[line,margin]{res} 
+% the margin option causes section titles to appear to the left of body text 
+%\textwidth=5.2in % increase textwidth to get smaller right margin
+
+\sectionwidth=1.0in % increase textwidth to get smaller right margin
+\resumewidth=5.2in % increase textwidth to get smaller right margin
+
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\usepackage{marvosym}
+%\usepackage[hidelinks]{hyperref}
+%\usepackage[bookmarks=true,pdfborder={0 0 0}]{hyperref}
+\usepackage[colorlinks, urlcolor=blue]{hyperref}
+
+\begin{document}
+\name{Raghavendra R Bilgi $|$ \Letter \hspace{1mm} \href{mailto:rrbilgi@gmail.com}{rrbilgi@gmail.com} $|$ \Mobilefone \hspace{1mm}+91-9663047755 $|$ \href{http://linkedin.com/in/rrbilgi} {LinkedIn} } 
+% 
+% \address{{\bf Present Address} \\ 116, Pampa Hostel\\Indian Institute of Technology Madras\\
+% I.I.T. Post Office\\Chennai - 600 036}
+%  
+% \address{{\bf Permanent Address} \\ 13 SURABHI 21st Main\\Muneshwara Block\\ Bangalore-560085 \\}
+% \small
+% \address{\emph{``...Sunit is an ideal member for a team that is engaged in innovation...''}}.
+% \footnotesize
+% \address{-Santosh Godbole\\ Director at Cisco Video Technologies\\ \href{http://linkedin.com/in/sunitsivasankaran}{Linkedln testimonial}}
+\begin{resume} 
+% {\bf \line(1,0){250}} \\
+%  \small
+% \hfill {{\emph{``...Sunit is an ideal member for a team that is enganged in innovation...''}}} \\
+% \footnotesize 
+% \hfill {Linkedln testimonial, see more at http://linkedin.com/in/sunitsivasankaran}\\
+% \line(6,0){250}
+\normalsize
+
+\section{Summary}
+
+\begin{itemize} \itemsep -1pt
+ \item [$\star$] Currently working as Chief Engineer at Samsung R\&D Institute India, Bangalore
+ \item [$\star$] Proficient is Speech Recognition, Deep Learning, Machine Learning techniques
+ \item [$\star$] Successfully developed and deployed Speech Recognition solution for S-Voice Personal Assistant
+ \item [$\star$] MS from the Indian Institute of Technology, Madras with specialization in Speech Recognition
+\end{itemize}
+
+\vspace{-5mm}
+\line(6,0){400}
+
+%\section{Objective}
+%To explore the industrial application of my research and use it as a basis to improve my MS thesis.
+% \section{Keywords}
+% \small
+% ASR, Machine Learning, Speech and Image Signal Processing, Compressive Sensing, Big Data Analysis, Computational Auditory Scene Analysis (CASA).
+% \normalsize
+
+\section{Experience}
+
+\normalsize
+ {\bf Chief Engineer}, Intelligent Systems, S-Voice ASR, \hfill Dec 2012 - Present\\
+ \hfill Samsung R\&D Institute, Bangalore, India
+\small
+%\vspace{-5mm}
+
+My primary contribution is in developing commercial quality Speech Recognition system for Samsung S-Voice, Voice Assistant. We have successfully developed and deployed Speech Recognition for two major english locale and currently working on another region specific english locale. I have worked on all the modules of Speech Recognition solution and helped to setup a pipeline for developing and improving speech recognition solution for different locales. I have also worked on developing high quality speech synthesis system by combining unit selection based technologies and statistical parametric synthesis techniques.
+
+\begin{itemize} \itemsep -1pt  % reduce space between items 
+\small
+	\item[$\star$] Acoustic Modeling   : Experience in developing and deploying Deep Neural Network based acoustic model
+	\item[$\star$] Language Modeling   : Data collection and preparation, model optimization, handling OOVs, personalization of Language model, live data update
+	\item[$\star$] Lexicon Preparation : Preparation, development and deployment of lexicons for ASR
+	\item[$\star$] Embedded Solution   : Model training, model compression and optimization, Confidence scoring module, Decoder optimization
+	\item[$\star$] Data Collection 	   : Data preparation, Data collection, Data Evaluation, Co-Ordination
+	\item[$\star$] NLU, Dialog Manager : Collaborate with NLU team and ASR Integration
+	\item[$\star$] Text to Speech      : Added the statistical cost computation and integrated VQ based unit compression.
+\end{itemize}
+
+\normalsize
+  {\bf Teaching Assistant,} Electrical Department, \hfill Dec 2009 - Nov 2012\\
+ \hfill Indian Institute of Technology-Madras, Chennai, India
+ 
+\begin{itemize} \itemsep -2pt  % reduce space between items 
+\small
+	\item[$\star$] For Courses: Digital Signal Processing (DSP), Analog and Digital Signal Processing, Speech Processing
+\end{itemize}
+
+\normalsize
+ {\bf Software Engineer} \hfill Jul 2005 - Dec 2009\\
+ \hfill Hewlett-Packard, Bangalore
+
+\small
+% \vspace{-5mm}
+I was a member of the team working on Distributed File System targeted for Cloud Computing environment. Primary development was in C, C++, Python on Linux based operating system. 
+ 
+\normalsize
+\vspace{-5mm}
+\line(6,0){400}
+
+
+
+\section{Education} 
+\small
+Master of Science (MS) by Research, Department of Electrical Engineering, \\{\bf Indian Institute of Technology, Madras (IITM)}, 2012  \\
+\emph{Thesis}: Rapid Speaker and Environment Adaptation in Feature Space for Speech Recognition \\
+\emph{Thesis Advisor}: Prof. S. Umesh \\
+% \underline {Key Courses}: Speech Signal Processing, DSP, Pattern Recognition, Image Signal Processing, Linear Algebra, Probability Theory, Time series analysis (Audit), Machine  Learning (from Coursera)\\
+% \underline {Focus Area}: Automatic Speech Recognition, Speech Enhancement, Pattern Recognition, Machine Learning, Environmental Sounds,  CASA, DSP.\\
+% \underline {CGPA}: 8.0/10 
+
+%\vspace{1mm}
+Bachelor of Engineering (B.E), Department of Electronics and Communication \\ {\bf National Institute of Engineering}, Mysore, 2005 \\
+% \underline {Percent}: 78.5/10 
+
+\line(6,0){400}
+
+\section{Skills}
+\small
+   \begin{tabular}{l c p{3in}}\vspace{-4mm}
+   \hspace{-3mm} \underline{Domain Knowledge} & :&   Speech Recognition, Text to Speech, Deep Learning, Machine Learning, Natural Language Processing \\ \\ \vspace{-4mm}
+   \hspace{-3mm} \underline{Programming} & :&   C, C++, Python, Bash \\ \\ \vspace{-4mm}
+   \hspace{-3mm} \underline{Tools} & :&   Kaldi, SRILM, OpenFst, CMU-Sphinx, Theano, Keras, Tensorflow, Festival, HTS, HTK \\ \\ \vspace{-4mm}
+ \end{tabular}
+\normalsize
+\\
+
+
+\line(6,0){400}
+
+\normalsize
+\section{Publications}
+\label{pub}
+\small
+ \begin{itemize}
+   % \itemsep -2pt
+   \item[$\star$] D. S. Pavan Kumar, {\bf R. Bilgi} and S. Umesh, "Non-negative subspace projection during conventional MFCC feature extraction for noise robust speech recognition," Communications (NCC), 2013 National Conference on, New Delhi, India, 2013, pp. 1-5.
+   \item[$\star$] Bharghav. Ch, Neethu. M. Joy, {\bf R. Bilgi} and S. Umesh, "Subspace modeling technique using monophones for speech recognition," Communications (NCC), 2013 National Conference on, New Delhi, India, 2013, pp. 1-5.
+   \item[$\star$] {\bf R. Bilgi}, Vikas Joshi, S. Umesh, G. Luz, B. Carmen, “Robust Speech Recognition through the selection of Speaker and Noise transforms”- Proceedings of ICASSP 2012, Kyoto, Japan
+   \item[$\star$] V. Joshi, {\bf R. Bilgi}, S. Umesh, G. Luz, B. Carmen, “Noise and Speaker Compensation in Log Filter Bank Domain”- Proceedings of ICASSP 2012, Kyoto, Japan
+   \item[$\star$] V. Joshi, {\bf R. Bilgi}, S. Umesh, G. Luz, B. Carmen, “Sub-band Level Histogram Equal-ization for Robust Speech Recognition”-Proceedings of Interspeech 2011, Florence, Italy
+   \item[$\star$] V. Joshi, {\bf R. Bilgi}, S. Umesh, B. Carmen, G. Luz, “Efficient Approach to Speaker and Noise Normalization”-Proceedings of Interspeech 2011, Florence, Italy
+
+\end{itemize}
+ 
+
+
+ 
+\normalsize
+%   {\bf Teaching Assistant,} , Prof KMM Prabhu, IITM
+%    \begin{itemize} \itemsep -2pt  % reduce space between items
+%  \item[$\star$] Tutorial Lectures 
+%  \item[$\star$] Assignment and paper evaluation
+%  \end{itemize}
+%   
+%  
+%  {\bf Teaching Assistant,} Electric Field Theory, Prof Anil Prabhakar, IITM
+%    \begin{itemize} \itemsep -2pt  % reduce space between items
+%  \item[$\star$] Project evaluation
+%  \item[$\star$] Tutorials, Assignment and paper evaluation
+%  \end{itemize}
+%  
+
+% \section{Relevant Industry \\ Projects}
+% \begin{itemize}
+
+
+% \item[$\star$] {\bf VoiceHome, INRIA}\\
+% \small
+% This project is a collaboration between INRIA and several other industrial partners. The objective was to improve the ASR performance when the speech is corrupted with reverberation.  Multiple techniques such as DNN based speech dereverberation, DNN based acoustic modeling, ivectors, model adaptation and multi task learning were employed to improve the performance. \\
+% \emph{Keywords}: DNN, Theano, Kaldi
+
+
+% Speech dereverberation and acoustic modeling using DNNs, Transfer Learning, model adaptations, ivectors, data simulation
+% French corpus
+
+
+% \normalsize
+% \item[$\star$] {\bf S-Voice, Samsung} \\
+% \small
+% The objective of the project was to improve the recognition accuracy of the ASR system using multiple signal processing and machine learning % algorithms. \\
+% \emph{Keywords}: Machine Learning, ASR, Acoustic Modeling, Signal Processing, VAD, Speech Enhancement, GMM, HMM, Decision Trees, Regression
+
+% \end{itemize}
+
+ 
+%  \line(6,0){400}
+ 
+%   \section{Conferences/\\Workshop}
+% \small
+% \begin{itemize}
+%    \itemsep -2pt
+% \item[$\star$] Attended a workshop on parametric speech synthesis titled \emph{``Winter school of speech signal processing (WISSAP)''} conducted by IITM, Chennai, Feb 2013
+% \item[$\star$] \underline{Conducted} a workshop on \emph{ ``Basics of Python''} in association with the Free Software Foundation Tamil Nadu (FSFTN) in Anna University, Chennai, 2012.
+% \item[$\star$] Attended a workshop on Sparse Signal Processing, IISc, Bangalore, 2012
+% \item[$\star$] NDS Devcon, NDS, Berlin, 2010
+% \item[$\star$] New Initiative Developer Conference, NDS, Copenhagen, 2010
+% \item[$\star$] New Initiative Developer Conference, NDS, Paris, 2009
+% \item[$\star$] NDS Devcon, NDS, Spain, 2008  
+% \end{itemize}
+% \line(6,0){400}
+
+
+% \section{Awards} 
+% \small
+% \begin{itemize}
+%    \item[$\star$] Recipent of three {\bf Employee of month} award at Samsung.
+%    \item[$\star$] First prize Winner of GE Sponsored, ”Innovation for India, 2011” contest.
+%    \item[$\star$] First prize Winner of ERICSSON Design contest (Industry Relevant Problem Telecom Domain), Shaastra-2010, IIT-Madras.
+%    \item[$\star$] Recipient of three e-Awards at Hewlett-Packard, Bangalore.
+% \end{itemize}
+
+
+% \normalsize
+% \line(6,0){400}
+% \section{Extracurricular Activities}
+% \small
+% \begin{itemize}
+%   \itemsep -2pt
+% \item[$\star$]  Captained hostel team in institute level cricket tournament
+% \item[$\star$]  Captained a team which won the Intra departmental Cricket competition \emph{``ElecCup''}
+% \item[$\star$]  Represented NDS in corporate cricket tournaments \\
+% \end{itemize}
+ 
+
+% \line(6,0){400} 
+% \normalsize
+% Tabulate Computer Skills; p{3in} defines paragraph 3 inches wide
+% \section{Other \\Interest}
+% \small
+% \begin{enumerate}
+% \item[$\star$] Hapkido, a self defense based Korean Martial Art - $8^{th}$ Gup.
+% \item[$\star$] Violin (Carnatic Style)
+% \end{enumerate}
+% \vspace{4mm}
+
+% \section{Personal \\Information}
+% \small
+% \begin{tabular}{l c p{3in}}\vspace{-4mm}
+% \underline{Information} & \hspace{7mm}:&   Male, Unmarried, Born on $7^{th}$ May, 1986  \\ \\ \vspace{-4mm}
+% \underline{Languages} & \hspace{7mm}:& Malayalam (Mother tongue), Kannada, Hindi, English\\ \\\vspace{-4mm}    
+%         \underline{Permanent Address} & \hspace{7mm}:& 13, ``SURABHI", 21st Main Road, Muneshwara Block, Bangalore-560085 \\ \\\vspace{-4mm}
+% \underline{Other Interests} & \hspace{7mm}:& Chess, Hapkido ($7^{th}$ Gup), Violin (Carnatic Style)
+% \end{tabular}
+
+% \section{References}
+% \begin{itemize}
+%    \itemsep 0pt
+%  \item[$\star$] {\href{http://linkedin.com/in/sunitsivasankaran}{http://linkedin.com/in/sunitsivasankaran}} (login to view recommendations)
+%  \item[$\star$] References will be provided on request.
+%  \end{itemize}
+%  
+
+\end{resume} 
+\end{document} 
+
+
+
