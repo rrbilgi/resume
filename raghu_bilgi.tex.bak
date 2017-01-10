@@ -63,7 +63,7 @@
 \small
 %\vspace{-5mm}
 
-My primary contribution is in developing commercial quality Speech Recognition system for Samsung S-Voice, Voice Assistant. We have successfully developed and deployed Speech Recognition solution for major English languages. I have worked on all the modules of Speech Recognition and helped to setup a pipeline for developing and improving overall experience with speech recognition solution. I have also worked on developing high quality speech synthesis system by combining unit selection based method and statistical parametric synthesis techniques.
+My primary contribution is in developing commercial quality Speech Recognition system for Samsung S-Voice, Voice Assistant. We have successfully developed and deployed Speech Recognition solution for major english languages. I have worked on all the modules of Speech Recognition and helped to setup a pipeline for developing and improving overall experience with speech recognition solution. I have also worked on developing high quality speech synthesis system by combining unit selection based method and statistical parametric synthesis techniques.
 
 \begin{itemize} \itemsep -1pt  % reduce space between items 
 \small
@@ -75,7 +75,7 @@ My primary contribution is in developing commercial quality Speech Recognition s
 	\item[$\star$] {\bf Language Modeling}   : Data collection and preparation, Model optimization, Domain adaptation, Handling OOVs, Context aware language model, Domain Classification
 	\begin{itemize}	\small	
 		\item[--] Helped to setup the Language Model training pipeline
-		\item[--] Optimized/Adapted the models to improve the performance of Speech recognition on targeted domains (call, music, navigation, TV etc)
+		\item[--] Optimized/Adapted the models to improve the performance of Speech recognition on targeted domains (call, music, navigation, tv etc)
 		\item[--] Improved the performance of the model on Name recognition and Homophone Disambiguation
 		\item[--] Experimented with techniques to effectively handle the Out of Vocabulary words
 		\item[--] Optimized the model to perform better when the context is available.
@@ -85,12 +85,12 @@ My primary contribution is in developing commercial quality Speech Recognition s
 	\item[$\star$] {\bf Embedded Solution}   : Model training, Model compression and optimization, Confidence scoring module
 	\begin{itemize}	\small	
 		\item[--] Trained a low memory footprint acoustic model for embedded devices.
-		\item[--] Added the confidence scoring module to help to identify the possible speech recognition failures. Experimented with several techniques to reduce FA and FR.
+		\item[--] Added the confidence scoring module to help to indentify the possible speech recognition failuers. Experimented with several techiniques to reduce FA and FR.
 	\end{itemize}
 
 	\item[$\star$] {\bf Data Collection}     : Data preparation, Data collection, Data Evaluation, Co-Ordination
 	\begin{itemize}	\small	
-		\item[--] Coordinated with relevant teams for data preparation for acoustic and language model
+		\item[--] Co-Ordinated with relevant teams for data preparation for acoustic and language model
 		\item[--] Setup the auto transcription evaluation and helped to prepare transcription preparation guidelines.
 	\end{itemize}
 
