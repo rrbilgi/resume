@@ -3,3 +3,9 @@
 *.log
 *.dvi
 *.ps
+*.aux
+*.nav
+*.out
+*.snm
+*.toc
+*.bak
